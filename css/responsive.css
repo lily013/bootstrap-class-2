@@ -1,0 +1,262 @@
+/* PHONE - TABLET */
+/* @media (max-width:991px) {
+  header  nav.navbar{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .navbar-toggler {
+    padding: 8px 10px;
+    font-size: 25px;
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: lightgreen;
+    border: none;
+    border-radius: 0 ;
+    transition: var(--bs-navbar-toggler-transition);
+}
+ .navbar-toggler:focus {
+    box-shadow: none;
+  }
+nav #MyMenu  li a {
+    padding: 12px 25px;
+} */
+/* BANNER STARTS HERE */
+  /* #banner {
+    padding: 55px 0;
+}
+#banner h1 {
+  font-size: 55px;
+} */
+/* BANNER ENDS HERE */
+/* #Client {
+  padding: 30px 0;
+}
+#clients {
+  padding: 10px 0;
+}
+#community h2 {
+  font-size: 32px;
+}
+#Membership h4 {
+font-size: 20px;
+}
+#Membership p {
+  font-size: 10px;
+}
+#Image img, svg {
+  margin-top: -40px;
+  vertical-align: middle;
+}
+#Image h2 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+ #Image p {
+    font-weight: 400;
+    font-size: 12px; 
+}
+
+#Image a {
+  border-radius: 3px;
+  padding: 12px 20px;
+}
+#More img, svg {
+    width: 400px;
+    height: 380px;
+      vertical-align: middle;
+  }
+  #customers {
+    padding: 32px;
+  } 
+#More h2 {
+  font-size: 30px;
+}
+#More p {
+  font-size: 12px;
+  padding: 30px 0;
+}
+#More a {
+  border-radius: 3px;
+  padding: 12px 20px;
+}
+#Readmore p {
+  font-size: 13px;
+  padding: 15px;
+}
+.card-text-content {
+  top: 175px;
+  left: 95px;
+}
+
+
+/* PHONE - TABLET */
+@media (max-width: 767px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 80%; 
+  }
+
+  #banner h1 {
+    font-size: 36px; 
+  }
+
+  #banner p, #Client p, #business p, #customers p, #Readmore p {
+    font-size: 14px; 
+  }
+
+  .button, #Image a, #More a, #Demo a {
+    padding: 10px 20px; 
+    font-size: 14px;
+  }
+
+  #clients img {
+    max-width: 80%; 
+  }
+
+  #Membership .col-4 {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .card-text-content {
+    width: 90%; 
+    left: 5%; 
+  }
+
+  #Demo h3 {
+    font-size: 48px; 
+  }
+  #Demo a {
+    width: 135px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+  #business, #More, #customers, #Readmore, #Demo {
+    padding: 20px; 
+  }
+
+  #customers .top-customer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  #business .common-img {
+    flex: 0 0 auto ;
+    width: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.common-sm {
+  width: 100% ; 
+  margin-bottom: 16px; 
+}
+
+.common-sm h4,
+.common-sm p {
+  text-align: center; 
+}
+}
+
+
+/* Tablet Screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #banner h1 {
+    font-size: 48px;
+  }
+
+  .button, #Image a, #More a, #Demo a {
+    padding: 12px 28px;
+    font-size: 15px;
+  }
+
+  #Membership .col-4 {
+    width: 50%; 
+    margin-bottom: 20px;
+  }
+
+  .card-text-content {
+    width: 80%; 
+    left: 10%; 
+  }
+}
+
+
+@media (min-width: 1025px) {
+  #banner h1 {
+    font-size: 64px;
+  }
+
+  #Membership .col-4 {
+    width: 33.33%; 
+  }
+
+  #clients img {
+    max-width: 100%; 
+  }
+
+  .card-text-content {
+    width: 300px; 
+    left: 60px; 
+  }
+
+  #Demo h3 {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 480px) {
+  #banner h1 {
+    font-size: 20px; 
+  }
+
+  #banner p, #Client p, #Readmore p {
+    font-size: 12px;
+  }
+
+  #business h2, #community h2, #More h2 {
+    font-size: 24px;
+  }
+
+  .button, #Image a, #More a, #Demo a {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  #customers .top-customer {
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .common-sm {
+    flex: 1 0 100%; 
+  }
+  #customers h3 {
+    margin-top: 50px;
+  }
+
+  #More .col-md-7{
+    margin-bottom: 50px;
+  }
+
+  .Card{
+    margin-bottom: 100px;
+  }
+
+
+  #business .common-img {
+    flex: 0 0 auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
